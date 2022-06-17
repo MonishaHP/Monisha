@@ -1,21 +1,20 @@
-package oops;
-class india {
 
+class india {
 	void country() {
 		System.out.println("Indis is my country");
 	}
 }
-class AP{
+class AP extends india{
 	void country() {
 		System.out.println("AP is in India");
 	}
 }
-class TN{
+class TN extends india{
 	void country() {
 		System.out.println("TN is in India");
 	}
 }
-public class inherit{
+class inherit{
 	public static void main(String[] args) {
 		india i = new india();
 		i.country();
